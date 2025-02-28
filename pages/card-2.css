@@ -1,11 +1,14 @@
 .card-2 {
     background: #fff;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px gray;
     text-align: center;
     margin-top: 20px;
     padding: 20px;
     width: 300px;
+}
+.card-2:hover{
+    box-shadow: 2px 2px 2px skyblue;
 }
 #cupcake-img{
     width: 150px;
