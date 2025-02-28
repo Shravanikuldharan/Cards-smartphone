@@ -47,7 +47,43 @@
         .btn-buy-now:hover{
             background-color: #DD88CF;
             color: #4B164C;
-        }        
+        }       
+        
+        .card-2 {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            width: 300px;
+        }
+        #cupcake-img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%
+        }
+        .card h2 {
+            color: #744639;
+            margin: 10px 0;
+        }
+        .card p {
+            color: #555;
+            font-size: 14px;
+        }
+        .btn-order {
+            background: #dd540f;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+        .btn-order:hover {
+            background: #ff9a76;
+        }
     </style>
 </head>
 <body>
@@ -66,8 +102,14 @@
         </p>
         <button class="btn-buy-now">Buy now</button>
     </div>
-
     
-    
+    <div>
+        <div class="card-2">
+                <img src="./images/cupcake.jpg" alt="Cupcake" id="cupcake-img">
+                <h2>Delicious Cupcake</h2>
+                <p>Soft, creamy, and full of flavor. Order now and enjoy!</p>
+                <button class="btn-order">Order Now</button>
+        </div>
+    </div>
 </body>
 </html>
