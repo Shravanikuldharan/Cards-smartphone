@@ -1,0 +1,88 @@
+.card-4{
+    margin-top: 40px;
+    background: #CDC1FF;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -50px;
+    border: 1px solid black;
+}
+
+.header-profile {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.para-profile {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats div p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn {
+    width: 48%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-follow {
+    background: #ff5a5f;
+    color: white;
+}
+
+.btn-follow:hover {
+    background: #e0484e;
+}
+
+.btn-message {
+    background: #ddd;
+    color: #333;
+}
+
+.btn-message:hover {
+    background: #ccc;
+}

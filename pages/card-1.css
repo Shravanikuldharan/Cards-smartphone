@@ -1,0 +1,43 @@
+.card-1{
+    width: 250px;
+    padding: 8px;
+    background-color: #F8E7F6;
+    border: 1px solid #4B164C;
+    border-radius: 5px;
+}
+.smartwatch{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-header{
+    font-size: 18px;
+    color: #4B164C;
+    text-align: center;
+}
+.discription-highlight{
+    background-color: #DD88CF;
+}
+.current-price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.price{
+    font-size: 20px;
+    color: red;
+}        
+.btn-buy-now{
+    background-color: #4B164C;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.btn-buy-now:hover{
+    background-color: #DD88CF;
+    color: #4B164C;
+} 

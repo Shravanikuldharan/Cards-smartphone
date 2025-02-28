@@ -1,0 +1,35 @@
+.card-2 {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+}
+#cupcake-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+.card h2 {
+    color: #744639;
+    margin: 10px 0;
+}
+.card p {
+    color: #555;
+    font-size: 14px;
+}
+.btn-order {
+    background: #dd540f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.btn-order:hover {
+    background: #ff9a76;
+}
