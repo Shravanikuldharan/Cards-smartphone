@@ -134,7 +134,97 @@
         .btn-get:hover {
             background-color: #555;
         }
-    
+        .card-4{
+            margin-top: 40px;
+            background: #CDC1FF;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: -50px;
+            border: 4px solid white;
+        }
+
+        .header-profile {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .para-profile {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+
+        .stats div {
+            text-align: center;
+        }
+
+        .stats div p {
+            margin: 5px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .btn-profile {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .btn {
+            width: 48%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .btn-follow {
+            background: #ff5a5f;
+            color: white;
+        }
+
+        .btn-follow:hover {
+            background: #e0484e;
+        }
+
+        .btn-message {
+            background: #ddd;
+            color: #333;
+        }
+
+        .btn-message:hover {
+            background: #ccc;
+        }
+        .card-4 :hover{
+            box-shadow: 2px 2px 5px 5px #4B164C;
+        }
     </style>
 </head>
 <body>
@@ -170,6 +260,30 @@
         <input type="text" class="input-field" placeholder="Your Name">
         <input type="email" class="input-field" placeholder="Your Address">
         <button class="btn-get">GET THE NEW RECIPES!</button>
+    </div>
+
+    <div class="card-4">
+        <img src="./images/Shravani-img.jpg" alt="Profile" class="profile-img">
+        <h2 class="header-profile">Shravani Kuldharan</h2>
+        <p>Full Stack Developer</p>
+        <div class="stats">
+            <div>
+                <p class="para-profile">342</p>
+                <span>Posts</span>
+            </div>
+            <div>
+                <p class="para-profile">120k</p>
+                <span>Followers</span>
+            </div>
+            <div>
+                <p class="para-profile">285</p>
+                <span>Following</span>
+            </div>
+        </div>
+        <div class="btn-profile">
+            <button class="btn btn-follow">Follow</button>
+            <button class="btn btn-message">Message</button>
+        </div>
     </div>
 </body>
 </html>
